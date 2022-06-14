@@ -1,0 +1,84 @@
+header {
+
+background-color: #0b1c51;
+
+
+}
+
+header h1 {
+
+    font-size: 52px;
+    font-family: "Gochi Hand";
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
+header nav {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+header nav ul {
+
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li a {
+
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+@media all and (min-width: 600px) {
+    
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+        align-content: space-between;
+        
+        
+    }
+
+    header h1 {
+        font-family: "Gochi Hand";
+        font-size: 48px;
+        margin: 14px 0;
+        padding-top: 6px;
+        flex-grow: 1;
+    }
+
+
+    header nav {
+        margin-top: 14px;
+        flex-grow: 1;
+      }
+
+
+      header nav ul li a:hover {
+        color: #bdbdbd;
+      }
+
+
+
+      .headr {
+        flex-direction: row;
+        
+      }
+}
